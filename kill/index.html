@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunyara dictionary</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+</head>
+<body>
+   <div class="header" >
+       <h1> Lunyara dictonary</h1>
+   </div>
+<div class="wrapper">
+    <div class="words">
+       <input type="text" id="search" placeholder="toolya...">
+       <button onclick="search()"><img src="images/search.gif" style="height: 12px;"></button>
+<ul id="word_list">
+   
+    
+
+
+</ul>
+
+
+
+    </div>
+ <div class="word">
+     <h3 id="word_text" ></h3>
+     <p id="definition" ></p>
+
+     <hr>
+     <h3> example:</h3>
+     <li id="related"> </li>
+ </div>
+
+
+</div>
+
+<!-- jhhk -->
+
+
+<div class="wrapper1" style="margin-top: 7%;">
+    <h3 style="color: black; margin-left: 20%;"> Talk To us!</h3>
+    <form method="post" action="" class="ccform">
+    <div class="ccfield-prepend">
+        <span class="ccform-addon"><i class="fa fa-user fa-2x"></i></span>
+        <input class="ccformfield" type="text" placeholder="Full Name" required>
+    </div>
+    <div class="ccfield-prepend">
+        <span class="ccform-addon"><i class="fa fa-envelope fa-2x"></i></span>
+        <input class="ccformfield" type="text" placeholder="Email" required>
+    </div>
+    <div class="ccfield-prepend">
+        <span class="ccform-addon"><i class="fa fa-mobile-phone fa-2x"></i></span>
+        <input class="ccformfield" type="text" placeholder="Phone">
+    </div>
+     <div class="ccfield-prepend">
+        <span class="ccform-addon"><i class="fa fa-info fa-2x"></i></span>
+        <input class="ccformfield" type="text" placeholder="Subject" required>
+    </div>
+    <div class="ccfield-prepend">
+        <span class="ccform-addon"><i class="fa fa-comment fa-2x"></i></span>
+        <textarea class="ccformfield" name="comments" rows="8" placeholder="Message" required></textarea>
+    </div>
+    <div class="ccfield-prepend">
+        <input class="ccbtn" type="submit" value="Submit">
+    </div>
+    </form>
+</div>
+
+
+<div style="background: black; color: aliceblue;">
+    <center>    all rights reserved
+    <br>
+    created by le.hub ug +256755656909
+</center>
+
+</div>
+
+
+</body>
+
+
+
+</html>
+
+
+<script type="text/javascript">
+var dictionary = [
+{
+    word:"A",
+    def:"of, from",
+    rel:["Abaana ba mukyalo babba n’engeso zisai."," Children from rural areas are well behaved"]
+},
+
+{
+    word:"A interj ",
+    def:"No",
+    rel:["A, tinkimaite", "No, I dont know it."]
+},
+{
+    word:"a interj ",
+    def:"really",
+    rel:["A, nimwo kiri?!", "Really, is that so?!"]
+},
+{
+    word:"aaa interj ",
+    def:"no",
+    rel:["Aaa tiyaali ninje.", "No, it wasnt me."]
+},
+{
+    word:"aale interj ",
+    def:"okay",
+    rel:[" Aale iza tubone.", "Okay, come and we’ll see."]
+},
+{
+    word:"aba (okw)aba v intr (yabire) ",
+    def:"to go",
+    rel:["OAlena ayabire  kubona  Zuric Sebastian.","Alena has gone to visit zuric Sebastian."]
+},
+
+{
+    word:"abba (okw)abba v tr (abbire)",
+    def:"to work in exchange for food or water",
+    rel:["Abakali baabire kuluma lubimbi olwa kwabba emmere", "The women have gone to do farming in exchange for food."]
+},
+
+{
+    word:"abuka (okw)abuka v intr (bukire) ",
+    def:"(of a group) to disperse, break up, split up ",
+    rel:["Abantu baabukire olwa njura.", "The people dispersed because of the rain."]
+},
+
+{
+    word:"abya (okw)abya v tr (abirye)",
+    def:"to perform last funeral rites",
+    rel:["Olumbe lwa nguli Matovu baalwabirye igulo.", "Matovu’s last funeral rights was performed yesterday."]
+},
+{
+    word:"adula (okw)adula v tr (adwire)",
+    def:"to scratch, scrape",
+    rel:["Ontale yakwadwire omusirikale.","The lion scratched the soldier."]
+},
+{
+    word:"agenda",
+    def:"agenda",
+    rel:["Agenda ya lukiiko luni eri etyai? ", "What is the agenda for this meeting?"]
+},
+
+{
+word:"agula (okw)agula v tr (agwire) ",
+    def:"to remove the palm from a banana stalk",
+    rel:["Omukali akwagula matooke.", "The woman is removing the palms from the banana stalk."]
+},
+
+{
+    word:"aguuka (okw)aguuka v intr (aguukire)",
+    def:"⋄ (of people) to grow tall and fat",
+    rel:["Omwojo oni yawaguukire bundi.", "The boy has grown too tall and big"]
+},
+{
+    word:"aguuka (okw)aguuka v tr (aguukire)",
+    def:"to quench thirst, satisfy one’s thirst by drinking",
+    rel:["Nywire amaizi ni mpaguuka amalo.", "I have taken water and quenched my thirst."]
+},
+{
+    word:"aiguru adv",
+    def:"on top, above, up, over, on",
+    rel:["Leeta omunyu nagutaire aiguru oku kabada. ", "Bring the salt, Iwill put it up on top of the cupboard."]
+},
+{
+    word:"aikendi adv",
+    def:"on top, above, up, over, up, upwards ",
+    rel:["Aikendi wa nnyumba aliyo eisubi", "There is grass on top of the house"]
+},
+{
+    word:"aiswe (e.g. waiswe, baiswe,lyaiswe) poss ",
+    def:"our, ours",
+    rel:["Ekyo kibanja kyaiswe.", "That piece of land is ours."]
+},
+
+{
+    word:"aitundi (e.g. kyaitundi, byaitundi, zaitundi) adj",
+    def:"marketable, on demand ",
+    rel:["Encwi ezaitundi ziri Rwampanga.", "The marketable fish are found in Rwampanga"]
+}
+
+
+
+];
+
+// fetch words
+
+init = function(){
+    for(var i = 0; i <dictionary.length; i++){
+      document.getElementById('word_list').innerHTML += "<li onclick='show(" + i + ")'>" +
+      dictionary[i].word + "</li>";
+}
+}
+
+init();
+// definition
+
+show = function(i){
+    document.getElementById('word_text').innerHTML = dictionary[i].word;
+    document.getElementById('definition').innerHTML = dictionary[i].def;
+
+
+    var list = "";
+ 
+    for (var j = 0; j < dictionary[i].rel.length; j++){ 
+        list += "<li>" + dictionary[i].rel[j] + "</li>";
+        document.getElementById('related').innerHTML =list;
+
+    }
+
+
+}
+
+show(0);
+
+// search functionality
+
+search = function() {
+    query = document.getElementById('search').value;
+    if (query == ""){
+        return;
+    }
+    found = -1;
+
+    for (var i = 0; i<dictionary.length; i++){
+        if (query == dictionary[i].word){
+            found = i;
+            break;
+        } else{
+            document.getElementById('word_text').innerHTML = " ewula";
+            document.getElementById('definition').innerHTML = " ekigambo kinu kibulamu";
+            document.getElementById('related').innerHTML = " kibulamu";
+        }
+    }
+
+    if (found >=0) {
+        show(found); 
+    }
+}
+
+
+</script>
